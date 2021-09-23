@@ -97,39 +97,7 @@
         <div class="col position-relative py-lg-5 pb-5"><div class="homepage-image">
                     <img src="/images/homepage-image.png" class="img-fluid">
                 </div>
-				<script>
-				   
-
-				   window.onload = function() {
-				     
-				     countUpFromTime("Apr 18, 2020 00:00:00", 'countup1'); 
-				   };
-				   function countUpFromTime(countFrom, id) {
-				     countFrom = new Date(countFrom).getTime();
-				     var now = new Date(),
-				         countFrom = new Date(countFrom),
-				         timeDifference = (now - countFrom);
-    
-				     var secondsInADay = 60 * 60 * 1000 * 24,
-				         secondsInAHour = 60 * 60 * 1000;
-    
-				     days = Math.floor(timeDifference / (secondsInADay) * 1);
-				     hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1);
-				     mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
-				     secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
-
-				     var idEl = document.getElementById(id);
-				     idEl.getElementsByClassName('days')[0].innerHTML = days;
-				     idEl.getElementsByClassName('hours')[0].innerHTML = hours;
-				     idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
-				     idEl.getElementsByClassName('seconds')[0].innerHTML = secs;
-
-				     clearTimeout(countUpFromTime.interval);
-				     countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
-				   }
-				</script><h1 class="display-4">备 份 文 章 无 罪</h1><h1 class="display-4">释 放 陈 玫 蔡 伟</h1><h5 style="color:red">2020年4月19日被抓，
-				<span class="countup" id="countup1">现在已是第 <span class="timeel days">00</span>
-				  <span class="timeel timeRefDays"> 天</span>
+			<h1 class="display-4">2021年8月15日上午</h1><h1 class="display-4">陈玫、蔡伟已经获释</h1>
 				</span><br><br><a href="/about/intro/">==>>>了解案件详情</a></h5>
         </div>
     </div>
